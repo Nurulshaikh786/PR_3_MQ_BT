@@ -1,0 +1,150 @@
+:root{
+ --theme-heading:#CC9900;
+ --theme-para:#8c8c8c;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ font-family: 'Open Sans SemiCondensed';
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-item-center{
+    align-items: center;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.align-item-baseline{
+    align-items: baseline;
+}
+ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+    width: 25%;
+    padding: 0 10px;
+}
+.col-8{
+    width: 66.66%;
+    padding: 0 10px;
+}
+.col-4{
+    width: 33.33%;
+    padding: 0 10px;
+}
+.col-6{
+    width: 50%;
+}
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+header{
+    padding: 25px 0;
+}
+
+header .navigation .logo h1{
+    color: var(--theme-heading);
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 4px;
+
+}
+header .navigation ul li a{
+    color: black;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 10px 40px;
+    margin-right: 10px;
+    transition: all 0.3s ease-in;
+}
+
+header .navigation ul li a:hover , header .navigation ul li:first-child a {
+    background-color: var(--theme-heading);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+header .navigation .navbar-collapse {
+    flex-direction: column;
+    display: flex;
+}
+
+.hero{
+    background-image: url(../image/home-img);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+.intro .intro-heading h2{
+   color: var(--theme-heading);
+   font-size: 36px;
+   text-align: center;
+   letter-spacing: 2px;
+   margin-bottom: 5px;
+}
+.intro .intro-heading p{
+    text-align: center;
+    color: var(--theme-para);
+    font-size: 1.4rem;
+    line-height: 2;
+    font-weight: 300;
+}
+.intro{
+    margin: 100px;
+}
+
+.intro .intro-detail h3{
+    color: var(--theme-heading);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.intro .intro-detail p{
+    color: var(--theme-para);
+    font-size: 18px;
+    line-height: 1.9;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.intro .intro-detail a{
+    background-color: var(--theme-heading);
+    padding: 10px 40px ;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all 0.3 ease;
+    
+}
+.intro .intro-detail a:hover{
+    background-color: #826201;
+}
+
+
+

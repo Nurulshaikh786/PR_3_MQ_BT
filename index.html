@@ -1,98 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./open-sans/stylesheet.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/media.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Classic</title>
+        <link rel="stylesheet" href="./open-sans/stylesheet.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/media.css">
+    </head>
 
-<body>
-    <header>
-        <div class="container">
-            <div class="navigation">
-                <nav class="navbar navbar-expand-lg justify-space-between">
-                <div class="logo">       
+    <body>
+        <header>
+            <div class="container container-sm container-md container-lg container-xl container-xxl">
+                <div class="navigation d-flex justify-space-between">
+
+                    <div class="logo">
                         <h1>Classic</h1>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Collapsible Menu -->
-                <div class="collapse navbar-collapse" id="navbarMenu">
-                    <ul class="d-flex  ms-auto mb-2 mb-lg-0">
-                        <li><a href="javascript:void(0)" class="nav-link">Home</a></li>
-                        <li><a href="javascript:void(0)" class="nav-link">About</a></li>
-                        <li><a href="javascript:void(0)" class="nav-link">Blog</a></li>
-                        <li><a href="javascript:void(0)" class="nav-link">Contact</a></li>
+                    </div>
 
-                    </ul>
+                    <!-- Collapsible Menu -->
+                    <div>
+                        <nav>
+                            <ul class="d-flex ">
+                                <li><a href="javascript:void(0)"
+                                        class="nav-link">Home</a></li>
+                                <li><a href="javascript:void(0)"
+                                        class="nav-link">About</a></li>
+                                <li><a href="javascript:void(0)"
+                                        class="nav-link">Blog</a></li>
+                                <li><a href="javascript:void(0)"
+                                        class="nav-link">Contact</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+
                 </div>
-                </nav>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <main>
-        <section class="hero">
-            
-        </section>
+        <main>
+            <section class="hero">
 
-        <section class="intro">
-           <div class="container">
-             <div class="row">
-               <div class="col-12">
-                <div class="intro-heading">
-                     <h2>Introduction</h2>
-                <p>Suspendisse ut magna vel velit cursus tempor ut nec nunc. Mauris vehicula,<br> augue in tincidunt porta, purus ipsum blandit massa.</p>
-                </div>
-               </div>
-            </div>
-            <div class="row">
-                <div class="col-3">
-                    <div class="intro-detail">
-                        <img src="./image/img-1.jpg" alt="">
-                    <h3>Lorem ipsum dolor #1</h3>
-                    <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra</p>
-                    <a href="">Detail</a>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="intro-detail">
-                        <img src="./image/img-1.jpg" alt="">
-                    <h3>Lorem ipsum dolor #2</h3>
-                    <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra</p>
-                    <a href="">Detail</a>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="intro-detail">
-                        <img src="./image/img-1.jpg" alt="">
-                    <h3>Lorem ipsum dolor #3</h3>
-                    <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra</p>
-                    <a href="">Detail</a>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="intro-detail">
-                        <img src="./image/img-1.jpg" alt="">
-                    <h3>Lorem ipsum dolor #4</h3>
-                    <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra</p>
-                    <a href="">Detail</a>
-                    </div>
-                </div>
-              
-               
-            </div>
-           </div>
-        </section>
-    </main>
-</body>
+<div class="container container-sm container-md container-lg container-xl container-xxl"></div>
+            </section>
 
-</html>
+            <section class="intro-card">
+                <div class="container container-sm container-md container-lg container-xl container-xxl">
+                    <div class="row">
+                        <div class="col">
+                            <div class="intro-card-heading">
+                                <h2>Introduction</h2>
+                                <p>Suspendisse ut magna vel velit cursus tempor
+                                    ut nec nunc. Mauris vehicula,<br> augue in
+                                    tincidunt porta, purus ipsum blandit
+                                    massa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-3 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                            <div class="intro-card-detail">
+                                <div class="card-image">
+                                    <img src="./image/img-1.jpg" alt>
+                                </div>
+                                <div class="card-detail">
+                                    <h3>Lorem ipsum dolor #1</h3>
+                                    <p>Aenean cursus tellus mauris, quis
+                                        consequat
+                                        mauris dapibus id. Donec scelerisque
+                                        porttitor pharetra</p>
+                                    <a href="javascript:void(0)">Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                            <div class="intro-card-detail">
+                                <div class="card-image">
+                                    <img src="./image/img-3.avif" alt>
+                                </div>
+                                <div class="card-detail">
+                                    <h3>Lorem ipsum dolor #1</h3>
+                                    <p>Aenean cursus tellus mauris, quis
+                                        consequat
+                                        mauris dapibus id. Donec scelerisque
+                                        porttitor pharetra</p>
+                                    <a href="javacript:void()">Read More</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                            <div class="intro-card-detail">
+                                <div class="card-image">
+                                    <img src="./image/img-3.jpg" alt>
+                                </div>
+                                <div class="card-detail">
+                                    <h3>Lorem ipsum dolor #1</h3>
+                                    <p>Aenean cursus tellus mauris, quis
+                                        consequat
+                                        mauris dapibus id. Donec scelerisque
+                                        porttitor pharetra</p>
+                                    <a href="javascript:void(0)">Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                            <div class="intro-card-detail">
+                                <div class="card-image">
+                                    <img src="./image/img-2.jpg" alt>
+                                </div>
+                                <div class="card-detail">
+                                    <h3>Lorem ipsum dolor #1</h3>
+                                    <p>Aenean cursus tellus mauris, quis
+                                        consequat
+                                        mauris dapibus id. Donec scelerisque
+                                        porttitor pharetra</p>
+                                    <a href>read more</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="blog d-flex">
+                <div class="container container-sm container-md container-lg container-xl container-xxl">
+                    <article>
+                        <div class="row">
+                            <div class="col-6 ">
+                                <div class="blog-heading pr-1">
+                                    <h3>
+                                        Lorem ipsum dolor sit amet.
+                                    </h3>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur
+                                        adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="blog-img">
+                                    <img src="./image/img-5.jpg" alt>
+                                </div>
+                                <div class="blog-content pr-1">
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Similique consectetur
+                                        praesentium nemo deleniti inventore
+                                        excepturi illo assumenda. Tempora illum
+                                        perspiciatis quaerat!
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur
+                                        adipisicing elit. Odit magnam autem
+                                        possimus maiores, animi, illum quae
+                                        facere, doloremque voluptates impedit
+                                        aspernatur assumenda nemo voluptate
+
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Quaerat aut quisquam
+                                        sint dicta molestias minima fugit, id
+                                        est alias eos.
+                                    </p>
+
+                                    <a href="javascript:void(0)">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col-6 pt-0">
+                                        <div class="cat ">
+                                            <h3>Categories</h3>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="javascript:void(0)">
+                                                        Tincidunt non faucibus
+                                                        placerat
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="javascript:void(0)">
+                                                        Vestibulum tempor ac
+                                                        lectus
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="javascript:void(0)">
+                                                        Fusce non turpis euismod
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="javascript:void(0)">
+                                                        Nam in augue consectetur
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="javascript:void(0)">
+                                                        Text Link Color
+                                                        #006699</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 pt-0">
+                                        <div class="use">
+                                            <h3>Useful link</h3>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="javascript:void(0)">
+                                                        Tincidunt non faucibus
+                                                        placerat
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="javascript:void(0)">
+                                                        Vestibulum tempor ac
+                                                        lectus
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="javascript:void(0)">
+                                                        Fusce non turpis euismod
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="javascript:void(0)">
+                                                        Nam in augue consectetur
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="javascript:void(0)">
+                                                        Text Link Color
+                                                        #006699</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mt-1">
+                                        <div class="related-post">
+                                            <h3>Related Post</h3>
+                                            <div class="row">
+                                                <div class="col-5 ">
+                                                    <div class="rel-po-img">
+                                                        <img
+                                                            src="./image/image-6.jpg"
+                                                            alt="image-6">
+                                                    </div>
+                                                </div>
+                                                <div class="col-7">
+                                                    <div class="rel-po-detail">
+                                                        <h4>Lorem ipsum
+                                                            dolor.</h4>
+                                                        <p>Aenean cursus tellus
+                                                            mauris, quis
+                                                            consequat mauris
+                                                            dapibus id. Donec
+                                                            scelerisque
+                                                            porttitor pharetra.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 ">
+                                                    <div class="rel-po-img">
+                                                        <img
+                                                            src="./image/img-7.jpg"
+                                                            alt="img-7">
+                                                    </div>
+                                                </div>
+                                                <div class="col-7">
+                                                    <div class="rel-po-detail">
+                                                        <h4>Lorem ipsum
+                                                            dolor.</h4>
+                                                        <p>Aenean cursus tellus
+                                                            mauris, quis
+                                                            consequat mauris
+                                                            dapibus id. Donec
+                                                            scelerisque
+                                                            porttitor pharetra.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 ">
+                                                    <div class="rel-po-img">
+                                                        <img
+                                                            src="./image/img-8.jpg"
+                                                            alt="img-8">
+                                                    </div>
+                                                </div>
+                                                <div class="col-7">
+                                                    <div class="rel-po-detail">
+                                                        <h4>Lorem ipsum
+                                                            dolor.</h4>
+                                                        <p>Aenean cursus tellus
+                                                            mauris, quis
+                                                            consequat mauris
+                                                            dapibus id. Donec
+                                                            scelerisque
+                                                            porttitor pharetra.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="mt-4">
+            <div class="container container-sm container-md container-lg container-xl container-xxl">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="footer-heading">
+                            <h3>Proin eu posuere felis</h3>
+                        </div>
+                        <div class="foot-data-1 mt-2">
+                            <p>
+                                Classic is free HTML CSS website template
+                                provided by templatemo for everyone. Feel free
+                                to
+                                use it.
+                            </p>
+                            <p>
+                                Aenean cursus tellus mauris, quis consequat
+                                mauris dapibus id. Donec scelerisque porttitor
+                                pharetra.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="footer-heading ">
+                            <h3>Nulla tortor dolor</h3>
+                        </div>
+                        <div class="foot-data-2 mt-2">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Tincidunt non faucibus
+                                        placerat
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Vestibulum tempor ac
+                                        lectus
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Fusce non turpis euismod
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Nam in augue consectetur
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Lorem ipsum dolor sit</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Text Link Color #CCCC66</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="footer-heading">
+                            <h3>Etiam mollis ornare</h3>
+                        </div>
+                        <div class="foot-data-3 mt-2">
+                            <p>Aenean cursus tellus
+                                mauris, quis
+                                consequat mauris
+                                dapibus id. Donec
+                                scelerisque
+                                porttitor pharetra.
+                            </p>
+                            <p>Aenean cursus tellus
+                                mauris, quis
+                                consequat mauris
+                                dapibus id. Donec
+                                scelerisque
+                                porttitor pharetra.
+                            </p>
+                            <p>Aenean cursus tellus
+                                mauris, quis
+                                consequat mauris
+                                dapibus id. Donec
+                                scelerisque
+                                porttitor pharetra.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="footer-heading">
+                            <h3>Fusce non turpis</h3>
+                        </div>
+                        <div class="foot-data-4">
+                            <div class="row">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </body>
+
+    </html>

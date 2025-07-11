@@ -9,6 +9,21 @@
 }
 body{
  font-family: 'Open Sans SemiCondensed';
+ letter-spacing: 1px;
+}
+ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    display: block;
+    width: 100%;
+}
+h3 , h4 ,h2{
+    font-weight: 400;
 }
 .d-flex{
     display: flex;
@@ -25,14 +40,9 @@ body{
 .align-item-baseline{
     align-items: baseline;
 }
-ul li {
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
+
 .container{
-    max-width: 1320px;
+    max-width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -41,8 +51,8 @@ a{
     flex-wrap: wrap;
 }
 .col-3{
-    width: 25%;
-    padding: 0 10px;
+    width: 100%;
+    padding: 15px;
 }
 .col-8{
     width: 66.66%;
@@ -50,15 +60,45 @@ a{
 }
 .col-4{
     width: 33.33%;
-    padding: 0 10px;
+    padding: 15px 0;
+}
+.col-5{
+    width: 40%;
+    padding: 0 15px;
 }
 .col-6{
     width: 50%;
+    padding: 15px ;
+}
+.col-7{
+    width: 60%;
+    padding: 15px;
+}
+.col-12{
+    width: 100%;
+    padding :15px;
 }
 .mb-2{
     margin-bottom: 2rem;
 }
-
+.mt-4{
+    margin-top: 4rem;
+}
+.mt-2{
+    margin-top: 2.5rem;
+}
+.pl-1{
+    margin-left: 1rem;
+}
+.pr-1{
+    margin-right: 1rem;
+}
+.pt-0{
+    padding-top: 0;
+}
+.mt-1{
+    margin-top: 1rem;
+}
 header{
     padding: 25px 0;
 }
@@ -100,50 +140,153 @@ header .navigation .navbar-collapse {
     margin: 5px;
 }
 
-.intro .intro-heading h2{
+.intro-card .intro-card-heading h2{
    color: var(--theme-heading);
    font-size: 36px;
    text-align: center;
    letter-spacing: 2px;
    margin-bottom: 5px;
 }
-.intro .intro-heading p{
+.intro-card .intro-card-heading p{
     text-align: center;
     color: var(--theme-para);
     font-size: 1.4rem;
     line-height: 2;
     font-weight: 300;
 }
-.intro{
-    margin: 100px;
+.intro-card{
+    margin: 100px 0;
 }
 
-.intro .intro-detail h3{
+.intro-card .intro-card-detail h3{
     color: var(--theme-heading);
-    font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.6;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
-.intro .intro-detail p{
+.intro-card .intro-card-detail p{
     color: var(--theme-para);
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.9;
     font-weight: 300;
     margin-bottom: 2rem;
+    text-align: justify;
+    padding-right: 20px;
+    word-spacing: normal;
 }
 
-.intro .intro-detail a{
+.intro-card .intro-card-detail a , .blog .blog-content a{
     background-color: var(--theme-heading);
-    padding: 10px 40px ;
+    padding: 15px 40px ;
     color: white;
     border-radius: 10px;
     text-transform: uppercase;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
     
 }
-.intro .intro-detail a:hover{
+.intro-card .intro-card-detail a:hover ,  .blog .blog-content a:hover{
     background-color: #826201;
+}
+
+
+
+.blog .blog-heading p{
+    color: var(--theme-para);
+    font-size: 22px;
+    margin: 20px 0;
+    font-weight: 30;
+}
+
+.blog .blog-content p{
+    color: var(--theme-para);
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    
+
+}
+
+.blog  h3{
+    color: var(--theme-heading);
+    font-size: 2rem;
+}
+.blog .blog-img{
+    margin: 20px 0;
+}
+.blog ul{
+    padding: 0;
+}
+
+.blog ul li a{
+    color: #006699;
+    margin: 15px 0;
+    font-size: 18px;
+    text-decoration: underline;
+    transition: all 0.5s ease-in-out;
+    font-weight: 300;
+}
+.blog ul li a:hover{
+    text-decoration: none;
+}
+
+.blog .rel-po-detail h4{
+color: var(--theme-heading);
+font-size: 22px;
+margin-bottom: 15px;
+}
+
+.blog .rel-po-detail , .foot-data-3 p{
+    color: var(--theme-para);
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--theme-para);
+    margin-top: 20px;
+    
+}
+.blog .related-post{
+    margin-top: 10px;
+}
+.blog .related-post img{
+    
+}
+
+footer{
+    background-image: url(../image/foot-bg.png);
+    background-position: center;
+}
+.related-post h3{
+    margin-left: 15px;
+}
+
+.footer-heading h3{
+    color: var(--theme-heading);
+    font-size: 1.65rem;
+    letter-spacing: 0;
+    margin-top: 10px;
+}
+
+.foot-data-1{
+    background-color: #cccccc;
+    color: #000;
+    padding: 30px 20px;
+
+    
+}
+.foot-data-1 p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.foot-data-2 ul li a{
+    text-decoration: underline;
+    color: #cccc66;
+    margin: 10px 0;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    
+}
+.foot-data-2 ul li a:hover{
+    text-decoration: none;
 }
 
 
